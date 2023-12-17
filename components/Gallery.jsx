@@ -3,7 +3,7 @@ const Gallery = () => {
 
 <section className='w-full flex-center flex-col'>
     <h1 className='head_text text-center'>
-      <span className='orange_gradient text-center'> AI Prompts Generated Images</span>
+      <span className='orange_gradient text-center'> AI Prompt Generated Images</span>
     </h1>
    
 
