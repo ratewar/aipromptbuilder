@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 
 import PromptCard from "./PromptCard";
+import Gallery from "./Gallery";
 
 const PromptCardList = ({ data, handleTagClick }) => {
   return (
@@ -89,6 +90,8 @@ const Feed = () => {
       ) : (
         <PromptCardList data={allPosts} handleTagClick={handleTagClick} />
       )}
+
+      <Gallery />
     </section>
   );
 };
